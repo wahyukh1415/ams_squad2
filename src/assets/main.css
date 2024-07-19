@@ -1,0 +1,283 @@
+@import './base.css';
+
+*{
+  margin: 0 auto;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+main {
+  max-width: 1480px;
+  font-weight: normal;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+}
+
+header .logo img {
+  height: 40px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+header nav ul :hover {
+  background-color: var(--vt-c-main-color);
+}
+
+header nav ul li {
+  display: inline;
+  padding: 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.auth-buttons button {
+  background-color: #fff;
+  color: var(--vt-c-main-color);
+  border: 2px solid transparent;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-buttons .login {
+  background-color: transparent;
+  color: #fff;
+}
+
+.auth-buttons .login:hover {
+  color: var(--vt-c-main-color);
+}
+
+.auth-buttons .get-started {
+  background-color: var(--vt-c-main-color);
+  color: #fff;
+}
+
+.auth-buttons .get-started:hover {
+  border-color: #fff;
+}
+
+main {
+  display: flex;
+  grid-column-gap: 12rem;
+  text-align: center;
+  padding: 50px 20px;
+  text-align: left;
+}
+
+.hero-section h1 {
+  font-size: 5em;
+  font-weight:bolder;
+  color: var(--vt-c-main-color);
+  line-height: 100px;
+}
+
+.hero-section h1 span{
+  font-size: 1em;
+  font-weight:bolder;
+  color: #fff;
+}
+
+.hero-section p {
+  font-size: 2em;
+  font-weight: 200;
+  margin: 20px 0;
+}
+
+.buyer-buttons button {
+  color: #fff;
+  border-radius: 4px;
+  padding: 15px 25px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.buyer-buttons .bcm-button {
+  background-color: var(--vt-c-main-color);
+  border: 2px solid transparent;
+}
+
+.buyer-buttons .bcm-button:hover {
+  border-color: #fff;
+}
+
+.buyer-buttons .exp-button {
+  background-color: transparent;
+  border: 2px solid;
+}
+
+.buyer-buttons .exp-button:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: var(--vt-c-main-color);
+}
+
+.auction-card {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90em;
+  height: 32em;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.auction-info {
+  display: flex;
+  margin-bottom: 10px;
+  grid-column-gap: 15px;
+}
+
+.info-light {
+  font-weight: 100;
+  color: #3b3b3b;
+}
+
+.auction-card img {
+  width: 100%;
+  height: 22em;
+  border-radius: 10px;
+}
+
+.bid-section {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.bid-button {
+  background-color: var(--vt-c-main-color);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 18px 70px;
+  cursor: pointer;
+  font-size: 24px;
+  /* margin-right: 50px; */
+  margin: 0;
+}
+
+.divider {
+  background-color: #d0d3d4;
+  width: 2px;
+  height: 67px;
+  margin: 0 30px;
+}
+
+.timer {
+  line-height: 35px;
+  text-align: center;
+  /* margin-left: 30px; */
+}
+
+.timer .time-text {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.timer .time {
+  display: block;
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: var(--vt-c-main-color);
+}
+
+.section-2 {
+  font-weight: normal;
+}
+
+.auction-info-section {
+  padding: 50px 210px;
+  background-color: #fff;
+  color: #000;
+  text-align: left;
+  display: flex;
+}
+
+.auction-info-section h2 {
+  color: #000;
+  font-size: 8em;
+  font-weight: bolder;
+}
+
+.auction-info-section p {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 100px 0px 0px 100px;
+  color: #3b3b3b;
+}
+
+.features-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  color: #000;
+  padding: 50px 200px;
+}
+
+.feature {
+  text-align: justify;
+  padding: 0 30px;
+}
+
+.feature h3 {
+  color: var(--vt-c-main-color);
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.feature p {
+  color: #3b3b3b;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+  padding: 10px 0;
+}
+
+.feature button {
+  background-color: var(--vt-c-main-color);
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: 14px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.feature button:hover {
+  border-color:#000;
+}
