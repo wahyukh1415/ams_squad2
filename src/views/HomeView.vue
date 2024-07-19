@@ -1,12 +1,18 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+<script>
+export default {
+  methods: {
+    goToLogin() {
+      this.$router.push('/registerlogin'); // Ganti '/login' dengan rute yang sesuai
+    }
+  }
+}
 </script>
 
 <template>
     <div>
     <header>
         <div class="logo">
-            <img src="" alt="Auctions Logo">
+            <img src="../assets/images/ACVLogoGradient.png" alt="Auctions Logo">
         </div>
         <nav>
             <ul>
@@ -18,7 +24,7 @@ import TheWelcome from '../components/TheWelcome.vue'
             </ul>
         </nav>
         <div class="auth-buttons">
-            <button class="login">Login</button>
+            <button class="login" @click="goToLogin">Login</button>
             <button class="get-started">Get Started</button>
         </div>
     </header>
