@@ -26,18 +26,10 @@ header {
   overflow-y: auto;
 }
 
-.login-content {
-  align-content: center;
-  width: 100%;
-  max-width: 500px;
-  padding: 2rem;
-}
 
 .logo {
   max-width: 260px;
 }
-
-
 
 .app-stores img {
   height: 200px;

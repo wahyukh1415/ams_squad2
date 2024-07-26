@@ -4,7 +4,9 @@
       <img src="../assets/images/ACVLogoGradient.png" alt="ACV Auctions" class="header-logo">
       <div class="d-flex align-items-center">
         <span class="me-3">New to ACV Auctions?</span>
-        <button class="btn btn-outline-primary btn-sign-up">SIGN UP</button>
+        <router-link to="/registration">
+          <button class="btn btn-outline-primary btn-sign-up">SIGN UP</button>
+        </router-link>
       </div>
     </header>
     <div class="d-flex align-items-center justify-content-center flex-grow-1">
