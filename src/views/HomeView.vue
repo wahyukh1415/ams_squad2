@@ -2,7 +2,7 @@
 export default {
   methods: {
     goToLogin() {
-      this.$router.push('/registerlogin'); // Ganti '/login' dengan rute yang sesuai
+      this.$router.push('/login'); 
     }
   }
 }
@@ -79,3 +79,5 @@ export default {
     </div>
     </div>
 </template>
+
+<style scoped src="../assets/main.css"></style>

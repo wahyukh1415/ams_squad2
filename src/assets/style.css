@@ -1,0 +1,120 @@
+.container-fluid {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-logo {
+  height: 50px;
+}
+
+.btn-sign-up {
+  padding: 0.25rem 1rem;
+  font-size: 0.875rem;
+}
+
+.login-section {
+  height: calc(100vh - 60px - 56px);
+  overflow-y: auto;
+}
+
+.login-content {
+  align-content: center;
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+}
+
+.logo {
+  max-width: 260px;
+}
+
+
+
+.app-stores img {
+  height: 200px;
+}
+
+
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+
+.form-control {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  padding: 0.5rem 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #ff5722;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.btn-clear {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #6c757d;
+  cursor: pointer;
+}
+
+.btn-outline-primary {
+  color: #0077be;
+  border-color: #0077be;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0077be;
+  color: white;
+}
+
+.btn-outline-primary {
+  color: #0077be;
+  border-color: #0077be;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0077be;
+  color: white;
+}
+
+.btn-outline-primary {
+  color: #0077be;
+  border-color: #0077be;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0077be;
+  color: white;
+}
+
+.btn-outline-primary {
+  color: #0077be;
+  border-color: #0077be;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0077be;
+  color: white;
+}
